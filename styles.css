@@ -1,14 +1,24 @@
 body {
-  background: rgb(129, 125, 117);
+  background: solid white;
 }
 card{
   background-image: url("https://static.timesofisrael.com/www/uploads/2012/06/mad-magazine-1024x640.jpg");
 }
+
+.blackjack{
+  background: #355E3B;
+  width: 450px;
+  height: 600px;
+}
+
 .glow {
   font-size: 40px;
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
+  font-family: 'Casino 3D Filled', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @-webkit-keyframes glow {
